@@ -1,9 +1,10 @@
 package task2;
 
-public class System {
-    private Pet pet;
+public class PetControlSystem {
+    private HomePets pet;
 
-    void visiblePet(){
+    void visiblePet(HomePets pet){
+        System.out.println("Обнаружен питомец: ");
         this.pet = pet;
     }
 

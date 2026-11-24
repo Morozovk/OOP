@@ -1,2 +1,5 @@
-package task4;public class SeaCreature {
+package task4;
+
+public abstract class SeaCreature {
+    abstract void behavior();
 }

@@ -1,2 +1,5 @@
-package task3;public class Dish {
+package task3;
+
+public abstract class Dish {
+    abstract void description();
 }
