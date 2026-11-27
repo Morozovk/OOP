@@ -6,6 +6,7 @@ public class Chicken extends FarmPet{
         System.out.println("Дает яйца");
     }
 
+    @Override
     void getEat(){
         System.out.println("Требует зерно");
     }

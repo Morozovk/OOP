@@ -6,7 +6,8 @@ public class Cow extends FarmPet{
         System.out.println("Дает молоко");
     }
 
+    @Override
     void getEat(){
-        System.out.println("Требует выгула");
+        System.out.println("Требует выпас");
     }
 }

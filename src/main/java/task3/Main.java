@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         SystemRestaurantMenu systemRestaurantMenu = new SystemRestaurantMenu();
 
-        systemRestaurantMenu.addDish(new HotDish());
+        systemRestaurantMenu.addDish(new HotDish(45));
         systemRestaurantMenu.displayingTheDescription();
     }
 }

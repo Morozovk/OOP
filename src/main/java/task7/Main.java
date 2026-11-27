@@ -5,7 +5,7 @@ public class Main {
 
         AmusementPark amusementPark = new AmusementPark();
 
-        amusementPark.visibleAmusement(new Carousel());
+        amusementPark.addAmusement(new Carousel());
         amusementPark.descriptionForVisitor();
         amusementPark.serviceDescription();
     }

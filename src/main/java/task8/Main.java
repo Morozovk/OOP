@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
     MuseumSystem museumSystem = new MuseumSystem();
 
-    museumSystem.visibleExhibit(new Manuscript());
+    museumSystem.addExhibit(new Manuscript());
     museumSystem.descriptionExhibit();
 
-    museumSystem.visibleExhibit(new Sculpture());
+    museumSystem.addExhibit(new Sculpture());
     museumSystem.descriptionExhibit();
     }
 }

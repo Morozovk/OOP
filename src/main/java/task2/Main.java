@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         PetControlSystem petControlSystem = new PetControlSystem();
 
-        petControlSystem.visiblePet(new Cat());
+        petControlSystem.addPet(new Cat());
         petControlSystem.displayingTheDescription();
     }
 }

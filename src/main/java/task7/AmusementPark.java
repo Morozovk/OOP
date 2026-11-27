@@ -3,7 +3,7 @@ package task7;
 public class AmusementPark {
     private Amusement amusement;
 
-    void visibleAmusement(Amusement amusement){
+    void addAmusement(Amusement amusement){
         this.amusement = amusement;
     }
 

@@ -3,7 +3,7 @@ package task8;
 public class MuseumSystem {
     private Exhibit exhibit;
 
-    void visibleExhibit(Exhibit exhibit) {
+    void addExhibit(Exhibit exhibit) {
         this.exhibit = exhibit;
     }
 

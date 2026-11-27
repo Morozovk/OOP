@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         FarmSystem farmSystem = new FarmSystem();
 
-        farmSystem.visibleFarmPet(new Chicken());
-        farmSystem.displayingTheDescription();
+        farmSystem.addFarmPet(new Chicken());
+        farmSystem.showBehavior();
     }
 }
 

@@ -3,12 +3,12 @@ package task5;
 public class FarmSystem {
     private FarmPet farmPet;
 
-    void visibleFarmPet(FarmPet farmPet){
+    void addFarmPet(FarmPet farmPet){
         System.out.println("Обноруженно животное:");
         this.farmPet = farmPet;
     }
 
-    void displayingTheDescription(){
+    void showBehavior(){
         farmPet.getProduct();
         farmPet.getEat();
     }
